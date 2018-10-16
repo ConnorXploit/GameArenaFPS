@@ -30,19 +30,19 @@ public class chase : MonoBehaviour {
 				if(direction.magnitude > 1)
 				{
 					this.transform.Translate(0,0,0.05f);
-				}
-				else
-				{
 					anim.SetBool("isWalking",false);
+					anim.enabled = false;
 				}
 
 			}
 			else 
 			{
 				anim.SetBool("isWalking", true);
+				anim.enabled = true;
 			}
 		} else {
 			anim.SetBool("isWalking", true);
+			anim.enabled = true;
 		}
 
 	}

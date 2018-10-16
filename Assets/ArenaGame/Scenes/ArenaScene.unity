@@ -73685,7 +73685,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11de9d883ba29e7408300ad1c2cc424b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20706189
+      value: -0.078
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11de9d883ba29e7408300ad1c2cc424b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -73733,7 +73733,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 11de9d883ba29e7408300ad1c2cc424b, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: 11de9d883ba29e7408300ad1c2cc424b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -73800,7 +73800,7 @@ CapsuleCollider:
   m_Radius: 0.03
   m_Height: 0.18
   m_Direction: 1
-  m_Center: {x: 0, y: 0.17, z: 0}
+  m_Center: {x: 0, y: 0.1777, z: 0}
 --- !u!54 &1589311788
 Rigidbody:
   m_ObjectHideFlags: 0
